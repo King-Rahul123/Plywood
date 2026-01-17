@@ -1,13 +1,13 @@
 function Home() {
     return (
-        <main className="border-t-6 border-yellow-400 md:w-full">
+        <main className="border-t-6 border-yellow-400 max-w-full md:w-full">
             {/* Hero section */}
-            <section className="relative min-h-[70vh] md:min-h-screen w-full bg-cover bg-top" style={{ backgroundImage: "url('/assets/9a280e_e181bb00408745a6adda7f5fb10583cb~mv2.avif')" }}>
-                <div className="absolute inset-0 flex flex-col justify-center">
-                    <div className="-mb-6">
+            <section className="relative md:min-h-screen w-full bg-cover bg-top" style={{ backgroundImage: "url('/assets/9a280e_e181bb00408745a6adda7f5fb10583cb~mv2.avif')" }}>
+                <div className="flex flex-col justify-center">
+                    <div className="-mb-6 mt-50">
                         <img src="/assets/logo.png" alt="Logo" className="w-32 md:w-48 mx-auto mb-6"/>
                     </div>
-                    <div className="relative z-10 flex flex-col items-center justify-center py-8 text-center px-4 bg-black/40">
+                    <div className="relative z-10 flex flex-col items-center md:-mt-5 -mt-3 justify-center py-8 text-center px-4 bg-black/40">
                         <h1 className="text-3xl md:text-5xl font-extrabold text-lime-300">
                             Best Plywood <br />
                             Factory to Doorstep
@@ -88,7 +88,7 @@ function Home() {
             {/* Our Products section */}
             <section className="bg-cover bg-center bg-no-repeat max-w-full" style={{backgroundImage:"url('https://static.wixstatic.com/media/9a280e_ab93a3b99b274c68960c7ab7988f005d~mv2.jpg/v1/fill/w_1225,h_1123,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/9a280e_ab93a3b99b274c68960c7ab7988f005d~mv2.jpg')",}}>
                 <div className="p-10 inset-0 bg-[#E9E2C1]/85">
-                    <h1 className="text-7xl font-bold font-serif">Our Products</h1>
+                    <h1 className="md:text-7xl text-5xl font-bold font-serif">Our Products</h1>
                     <hr className="mt-15 mb-10" />
                     
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
@@ -156,24 +156,24 @@ function Home() {
             {/* Product Range Section */}
             <section className="bg-cover bg-top bg-no-repeat" style={{backgroundImage:"url('https://static.wixstatic.com/media/9a280e_84e392353ff9444f931f9aca6e807d8e~mv2.jpg/v1/fill/w_1225,h_2926,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/9a280e_84e392353ff9444f931f9aca6e807d8e~mv2.jpg')",}}>
                 <div className="p-10 inset-0">
-                    <h1 className="mt-9 text-7xl font-bold font-serif px-5 mb-20">Product Range</h1>
-                    <p className="text-white font-serif text-2xl pl-5 inline-block mr-100">Our diverse product range includes Shuttering Plywood, Block Board, Flush Door, and Plywood of various grades. Each product is crafted with precision and expertise to meet a wide range of construction and design needs.</p>
+                    <h1 className="mt-9 md:text-7xl text-6xl font-bold font-serif md:px-5 mb-20">Product Range</h1>
+                    <p className="text-white font-serif text-3xl pl-5 inline-block md:mr-100 mb-20">Our diverse product range includes Shuttering Plywood, Block Board, Flush Door, and Plywood of various grades. Each product is crafted with precision and expertise to meet a wide range of construction and design needs.</p>
                 </div>
-                <div className="grid grid-cols-2 p-8 -mt-16">
+                <div className="grid md:grid-cols-2 p-8 -mt-16 mb-3 md:mb-0">
                     <img src="/assets/shuttering_product.png" alt="" className="border-r h-full" />
                     <div className="p-10 bg-yellow-400">
                         <h2 className="text-3xl md:text-6xl font-serif font-bold md:p-8">Shuttering Plywood</h2>
                         <p className="mt-4 text-lg md:text-2xl md:p-8 font-serif">Get ready to experience our Shuttering Plywood, expertly engineered to exceed the toughest standards! You can count on its reliable performance to shine on-site every time!</p>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 p-8 -mt-16">
+                <div className="grid md:grid-cols-2 p-8 -mt-16 mb-3 md:mb-0">
                     <div className="p-10 bg-yellow-400">
                         <h2 className="text-3xl md:text-6xl font-serif font-bold">Block Board</h2>
                         <p className="mt-6 text-lg md:text-2xl font-serif">Our Block Board is crafted with precision, ensuring long-lasting performance and structural integrity.</p>
                     </div>
                     <img src="/assets/block_board.png" alt="" className="border-l w-full h-full" />
                 </div>
-                <div className="grid grid-cols-2 p-8 -mt-16">
+                <div className="grid md:grid-cols-2 p-8 -mt-16 ">
                     <img src="/assets/flush_door.png" alt="" className="border-r h-full mb:h-full" />
                     <div className="p-10 bg-yellow-400">
                         <h2 className="text-3xl md:text-6xl font-serif font-bold">Flush Door</h2>

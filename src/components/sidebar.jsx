@@ -9,8 +9,9 @@ const Sidebar = ({ open, setOpen }) => {
             <div className={`absolute inset-0 bg-black/40 transition-opacity duration-300 ${open ? "opacity-100" : "opacity-0"}`}onClick={() => setOpen(false)}></div>            
             {/* Desktop Sidebar */}
             <div className={`hidden md:flex absolute right-0 top-0 h-full w-96 bg-yellow-400 shadow-xl transform transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}>
+                <button className="absolute top-6 right-80 text-5xl font-bold text-black" onClick={() => setOpen(false)} aria-label="Close menu">&times;</button>
                 {/* Menu */}
-                <nav className="mt-24 ml-16">
+                <nav className="mt-28 ml-16">
                     <ul className="flex flex-col">
                         <li><Link to="/" className={isActive("/")} onClick={() => setOpen(false)}>Home</Link></li>
                         <li><Link to="/made" className={isActive("/made")} onClick={() => setOpen(false)}>How Ply is Made</Link></li>
@@ -23,9 +24,10 @@ const Sidebar = ({ open, setOpen }) => {
 
             {/* Mobile Sidebar */}
             <div className={`md:hidden absolute right-0 top-0 h-full w-64 bg-yellow-400 shadow-xl transform transition-transform duration-300 ${open ? "translate-x-0" : "translate-x-full"}`}>
+                <button className="absolute top-6 right-50 text-5xl font-bold text-black" onClick={() => setOpen(false)} aria-label="Close menu">&times;</button>
                 {/* Menu */}
-                <nav className="mt-20 ml-6">
-                    <ul className="flex flex-col gap-4 text-lg">
+                <nav className="mt-25 ml-6">
+                    <ul className="flex flex-col gap-2 text-lg">
                         <li><Link to="/" className={isActive("/")} onClick={() => setOpen(false)}>Home</Link></li>
                         <li><Link to="/made" className={isActive("/made")} onClick={() => setOpen(false)}>How Ply is Made</Link></li>
                         <li><Link to="/shop" className={isActive("/shop")} onClick={() => setOpen(false)}>Shop</Link></li>

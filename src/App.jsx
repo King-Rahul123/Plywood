@@ -15,7 +15,7 @@ function App() {
 
   return (
     <BrowserRouter>
-      <Header setSidebarOpen={setSidebarOpen}/>
+      <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen}/>
       <Sidebar open={sidebarOpen} setOpen={setSidebarOpen} />
       <Fixedbar />
       <PopupContactForm />
