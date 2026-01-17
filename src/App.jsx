@@ -6,8 +6,8 @@ import Sidebar from "./components/sidebar";
 import Fixedbar from "./components/fixedbar";
 import PopupContactForm from "./components/PopupContactForm";
 import Footer from "./components/footer";
-import Home from "./components/Landing";
-import About from "./components/About";
+import Home from "./pages/Landing";
+import About from "./pages/About";
 
 
 function App() {
