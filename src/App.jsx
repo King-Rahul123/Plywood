@@ -9,6 +9,7 @@ import Footer from "./components/footer";
 import Home from "./pages/home";
 import About from "./pages/About";
 
+
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
