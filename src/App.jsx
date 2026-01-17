@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header";
 import Sidebar from "./components/sidebar";
 import Fixedbar from "./components/fixedbar";
-import PopupContactForm from "./components/Contact_Us";
+import PopupContactForm from "./components/PopupContactForm";
 import Footer from "./components/footer";
 import Home from "./pages/home";
 import About from "./pages/About";

@@ -1,10 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const PopupContactForm = () => {
-    const [open, setOpen] = useState(false);
-
-    // OPEN FORM ON PAGE LOAD
-    useEffect(() => {setOpen(true);}, []);
+    const [open, setOpen] = useState(true);
 
     if (!open) return null;
 
