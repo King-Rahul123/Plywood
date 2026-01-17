@@ -8,7 +8,7 @@ const Footer = () => {
             {/* LEFT SECTION */}
             <div>
                 <h2 className="text-4xl font-semibold mb-6">Lenador Impex</h2>
-                <img src="/src/assets/logo.png" alt="Lenador Impex" className="w-36 mb-6"/>
+                <img src="/assets/logo.png" alt="Lenador Impex" className="w-36 mb-6"/>
                 <h3 className="text-2xl font-semibold mb-4">Stay Connected with Us</h3>
                 <label className="block text-s mb-2">Enter Your Email *</label>
                 <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-4">

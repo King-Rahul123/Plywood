@@ -2,10 +2,10 @@ function Home() {
     return (
         <main className="border-t-6 border-yellow-400 md:w-full">
             {/* Hero section */}
-            <section className="relative min-h-[70vh] md:min-h-screen w-full bg-cover bg-top" style={{ backgroundImage: "url('/src/assets/9a280e_e181bb00408745a6adda7f5fb10583cb~mv2.avif')" }}>
+            <section className="relative min-h-[70vh] md:min-h-screen w-full bg-cover bg-top" style={{ backgroundImage: "url('/assets/9a280e_e181bb00408745a6adda7f5fb10583cb~mv2.avif')" }}>
                 <div className="absolute inset-0 flex flex-col justify-center">
                     <div className="-mb-6">
-                        <img src="/src/assets/logo.png" alt="Logo" className="w-32 md:w-48 mx-auto mb-6"/>
+                        <img src="/assets/logo.png" alt="Logo" className="w-32 md:w-48 mx-auto mb-6"/>
                     </div>
                     <div className="relative z-10 flex flex-col items-center justify-center py-8 text-center px-4 bg-black/40">
                         <h1 className="text-3xl md:text-5xl font-extrabold text-lime-300">
@@ -94,42 +94,42 @@ function Home() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
                         <div>
                             <div className="relative inline-block overflow-hidden group">
-                                <img src="/src/assets/Flim faced.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
+                                <img src="/assets/Flim faced.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
                                 <span className="absolute top-0 left-0 bg-yellow-400 text-white text-lg px-3 py-1">Hostelling</span>
                             </div>
                             <p className="font-thin mt-2 text-lg">Film Faced Shuttering Plywood<br /><strong>₹</strong>45.00</p>
                         </div>
                         <div>
                             <div className="relative inline-block overflow-hidden group">
-                                <img src="/src/assets/Caliberated-710.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
+                                <img src="/assets/Caliberated-710.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
                                 <span className="absolute top-0 left-0 bg-yellow-400 text-white text-lg px-3 py-1">Hostelling</span>
                             </div>
                             <p className="font-thin mt-2 text-lg">Caliberated 710 Plywood BWP (Marine)<br /><strong>₹</strong>80.00</p>
                         </div>
                         <div>
                             <div className="relative inline-block overflow-hidden group">
-                                <img src="/src/assets/Caliberated-303.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
+                                <img src="/assets/Caliberated-303.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
                                 <span className="absolute top-0 left-0 bg-yellow-400 text-white text-lg px-3 py-1">Hostelling</span>
                             </div>
                             <p className="font-thin mt-2 text-lg">Caliberated 303 Plywood BWR<br /><strong>₹</strong>80.00</p>
                         </div>
                         <div>
                             <div className="relative inline-block overflow-hidden group">
-                                <img src="/src/assets/710-plywood.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
+                                <img src="/assets/710-plywood.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
                                 <span className="absolute top-0 left-0 bg-yellow-400 text-white text-lg px-3 py-1">Hostelling</span>
                             </div>
                             <p className="font-thin mt-2 text-lg">710 Plywood BWP (Marine)<br /><strong>₹</strong>80.00</p>
                         </div>
                         <div>
                             <div className="relative inline-block overflow-hidden group">
-                                <img src="/src/assets/Commercial_Plywood.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
+                                <img src="/assets/Commercial_Plywood.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
                                 <span className="absolute top-0 left-0 bg-yellow-400 text-white text-lg px-3 py-1">Hostelling</span>
                             </div>
                             <p className="font-thin mt-2 text-lg">Commercial Plywood<br /><strong>₹</strong>20.00</p>
                         </div>
                         <div>
                             <div className="relative inline-block overflow-hidden group">
-                                <img src="/src/assets/303-plywood.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
+                                <img src="/assets/303-plywood.png" alt="" className="w-full transition-transform duration-500 ease-out md:group-hover:scale-110" />
                                 <span className="absolute top-0 left-0 bg-yellow-400 text-white text-lg px-3 py-1">Hostelling</span>
                             </div>
                             <p className="font-thin mt-2 text-lg">303 Plywood BWR<br /><strong>₹</strong>80.00</p>
@@ -144,7 +144,7 @@ function Home() {
                     <h1 className="mt-10 text-4xl md:text-7xl font-bold font-serif px-5 bg-white/40 mb-10">Story</h1>
                     <p className="mt-6 font-thin text-lg text-center md:text-center md:ml-50">Crafting Excellence Always</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center mb-10">
-                        <img src="/src/assets/Story_image.png" alt="" className="w-full max-w-md mx-auto"/>
+                        <img src="/assets/Story_image.png" alt="" className="w-full max-w-md mx-auto"/>
                         <div className="mt-6 md:mt-0 md:mr-30">
                             <p className="text-2xl font-serif leading-relaxed text-gray-900 md:-ml-10">Lenador Impex is an exciting powerhouse in the Indian plywood manufacturing scene, devoted to delivering top-notch plywood solutions! Our unwavering commitment to excellence and innovation makes us stand out in the industry. With a keen eye on quality durability, and design, we're here to elevate your spaces with our exceptional plywood products!</p>
                             <button className="mt-10 px-10 py-3 bg-black text-white rounded-full">Learn More</button>
@@ -160,7 +160,7 @@ function Home() {
                     <p className="text-white font-serif text-2xl pl-5 inline-block mr-100">Our diverse product range includes Shuttering Plywood, Block Board, Flush Door, and Plywood of various grades. Each product is crafted with precision and expertise to meet a wide range of construction and design needs.</p>
                 </div>
                 <div className="grid grid-cols-2 p-8 -mt-16">
-                    <img src="/src/assets/shuttering_product.png" alt="" className="border-r h-full" />
+                    <img src="/assets/shuttering_product.png" alt="" className="border-r h-full" />
                     <div className="p-10 bg-yellow-400">
                         <h2 className="text-3xl md:text-6xl font-serif font-bold md:p-8">Shuttering Plywood</h2>
                         <p className="mt-4 text-lg md:text-2xl md:p-8 font-serif">Get ready to experience our Shuttering Plywood, expertly engineered to exceed the toughest standards! You can count on its reliable performance to shine on-site every time!</p>
@@ -171,10 +171,10 @@ function Home() {
                         <h2 className="text-3xl md:text-6xl font-serif font-bold">Block Board</h2>
                         <p className="mt-6 text-lg md:text-2xl font-serif">Our Block Board is crafted with precision, ensuring long-lasting performance and structural integrity.</p>
                     </div>
-                    <img src="/src/assets/block_board.png" alt="" className="border-l w-full h-full" />
+                    <img src="/assets/block_board.png" alt="" className="border-l w-full h-full" />
                 </div>
                 <div className="grid grid-cols-2 p-8 -mt-16">
-                    <img src="/src/assets/flush_door.png" alt="" className="border-r h-full mb:h-full" />
+                    <img src="/assets/flush_door.png" alt="" className="border-r h-full mb:h-full" />
                     <div className="p-10 bg-yellow-400">
                         <h2 className="text-3xl md:text-6xl font-serif font-bold">Flush Door</h2>
                         <p className="mt-6 text-lg md:text-2xl font-serif">Flush Doors are designed for modern aesthetics and functionality, adding style to any space. <br /><br />Our Flush Doors combine elegance with durability, perfect for residential and commercial use.</p>
