@@ -46,7 +46,7 @@ const Footer = () => {
         </div>
 
         {/* BOTTOM BAR */}
-        <div className="border-t border-black/60 text-center text-sm py-3 md:mt-10 mt-4 mb-11">
+        <div className="border-t border-black/60 text-center text-sm py-3 md:mt-10 mt-4 mb-11 md:mb-0">
             <p className="md:mt-3">© 2035 by Lenador Impex. Powered by React</p>
         </div>
     </footer>
