@@ -25,7 +25,7 @@ const Header = ({ sidebarOpen, setSidebarOpen }) => {
                             <i className="bi bi-bag-fill text-5xl"></i>
                             <span className="absolute text-white text-xl font-bold rounded-full px-4.5 mt-3">0</span>
                         </Link>
-                        <button className="text-lg bg-gray-200 px-8 py-2 rounded-full font-semibold tracking-wide" onClick={() => setSidebarOpen(true)}>Menu</button>
+                        <button className="text-2xl bg-gray-200 hover:bg-amber-200/60 px-6 py-1.5 rounded-full font-arial font-semibold tracking-wide" onClick={() => setSidebarOpen(true)}>Menu</button>
                     </div>
                 </div>
             </div>

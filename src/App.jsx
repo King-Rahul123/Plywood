@@ -6,9 +6,7 @@ import Sidebar from "./components/sidebar";
 import Fixedbar from "./components/fixedbar";
 import PopupContactForm from "./components/PopupContactForm";
 import Footer from "./components/footer";
-import Home from "./pages/Landing";
-import About from "./pages/About";
-
+import Home from "./pages/Home";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -22,7 +20,6 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
       </Routes>
 
       <Footer />

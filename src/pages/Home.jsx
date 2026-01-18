@@ -14,8 +14,8 @@ function Home() {
                         </h1>
                         <p className="mt-4 text-sm md:text-xl text-gray-200">Transform Spaces with Lenador Impex</p>
                         <div className="mt-8 flex flex-col sm:flex-col gap-4">
-                            <a href="tel:+919999999999" className="bg-white text-black w-40 py-2 rounded-full text-lg hover:bg-black hover:text-white transition">Call🤙</a>
-                            <a href="https://wa.me/919999999999" target="_blank" rel="noreferrer" className="bg-lime-400 text-black w-40 py-2 rounded-full text-lg hover:bg-black hover:text-white transition">WhatsApp</a>
+                            <a href="tel:+917808468854" className="bg-white text-black w-40 py-2 rounded-full text-lg hover:bg-black hover:text-white transition">Call🤙</a>
+                            <a href="https://wa.me/917808468854" target="_blank" rel="noreferrer" className="bg-lime-400 text-black w-40 py-2 rounded-full text-lg hover:bg-black hover:text-white transition">WhatsApp</a>
                         </div>
                     </div>
                 </div>
@@ -48,8 +48,15 @@ function Home() {
                         <h1 className="text-5xl font-bold text-emerald-400 font-calibri" style={{ letterSpacing: "0.30em" }}>CONTACT</h1>
                         <h1 className="text-5xl font-bold mb-4 -mt-1" style={{ letterSpacing: "0.30em" }}>US</h1>
                         <div className="w-8 h-2 bg-white mb-7 mt-2"></div>
-                        <p className="text-lg font-semibold">+91-72982-44444</p>
-                        <p className="text-lg font-semibold mt-2">+91-9026088085</p>
+                        <p className="text-lg font-semibold">+91 78084 68854</p>
+                        <div className="flex mt-4 gap-4">
+                            <a href="tel:+917808468854" className="flex items-center justify-center text-white">
+                                <i className="fas fa-phone text-3xl"></i>
+                            </a>
+                            <a href="https://wa.me/917808468854" className="flex items-center justify-center text-white">
+                                <i className="fab fa-whatsapp text-3xl"></i>
+                            </a>
+                        </div>
                     </div>
 
                     {/* VISIT US */}
@@ -506,16 +513,18 @@ function Home() {
                 <h1 className="text-4xl font-bold text-center">FIND US ON INDIAMART</h1>
                 <div className="flex justify-center pt-10 pb-20">
                     <div className="relative h-60 group">
-                    <img
-                        src="https://static.wixstatic.com/media/9a280e_7de837e326c643e4bf2153908ba231ad~mv2.png/v1/fill/w_468,h_440,al_c,q_85,enc_avif,quality_auto/9a280e_7de837e326c643e4bf2153908ba231ad~mv2.png"
-                        alt="Indiamart"
-                        className="h-40 md:h-60 transition-opacity duration-300 group-hover:opacity-0"
-                    />
-                    <img
-                        src="https://static.wixstatic.com/media/a3c153_d3fd814e9af142c89f2aa36da4d38e5e~mv2.png/v1/fill/w_456,h_524,al_c,q_85,enc_avif,quality_auto/a3c153_d3fd814e9af142c89f2aa36da4d38e5e~mv2.png"
-                        alt="Indiamart Hover"
-                        className="h-40 md:h-60 absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
-                    />
+                        <a href="https://www.indiamart.com/lenador-impex/">
+                            <img
+                                src="https://static.wixstatic.com/media/9a280e_7de837e326c643e4bf2153908ba231ad~mv2.png/v1/fill/w_468,h_440,al_c,q_85,enc_avif,quality_auto/9a280e_7de837e326c643e4bf2153908ba231ad~mv2.png"
+                                alt="Indiamart"
+                                className="h-40 md:h-60 transition-opacity duration-300 group-hover:opacity-0"
+                            />
+                            <img
+                                src="https://static.wixstatic.com/media/a3c153_d3fd814e9af142c89f2aa36da4d38e5e~mv2.png/v1/fill/w_456,h_524,al_c,q_85,enc_avif,quality_auto/a3c153_d3fd814e9af142c89f2aa36da4d38e5e~mv2.png"
+                                alt="Indiamart Hover"
+                                className="h-40 md:h-60 absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100"
+                            />
+                        </a>
                     </div>
                 </div>
             </section>
